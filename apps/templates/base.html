@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h2>
+        inicio
+    </h2>
+    <ul>
+        <li><a href="{% url 'home'  %}">inicio</a></li>
+        <li><a href="{% url 'bienvenido'  %}">bienvenido</a></li>
+        <li><a href="{% url 'contenido'  %}">contenido</a></li>
+
+
+        <li><a href=""></a></li>
+    </ul>
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>
