@@ -3,15 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3498db;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .welcome-container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body>
+
+
 
     <h2>
         inicio
     </h2>
     <ul>
-        <li><a href="{% url 'home'  %}">inicio</a></li>
-        <li><a href="{% url 'bienvenido'  %}">bienvenido</a></li>
+        <li><a href="{% url 'inicio'  %}">inicio</a></li>
+        <li><a href="{% url 'bienvenido'  %}">ingresar</a></li>
         <li><a href="{% url 'contenido'  %}">contenido</a></li>
 
 
